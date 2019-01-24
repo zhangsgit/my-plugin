@@ -9,6 +9,6 @@ import org.apache.maven.plugins.annotations.Mojo;
 @Mojo(name = "zhangsplugin",defaultPhase = LifecyclePhase.PACKAGE)
 public class ZhangsPlugin extends AbstractMojo {
     public void execute() throws MojoExecutionException, MojoFailureException {
-        System.out.println("--------Hello My Plusgin----------");
+        System.out.println("------#---Hello My Plusgin----------");
     }
 }
